@@ -1,5 +1,5 @@
 # Ionicons.swift
-Use Ionicons in you swift projects
+Use [Ionicons](http://ionicons.com/) in you swift projects. The similar to [FontAwesome.swift](https://github.com/thii/FontAwesome.swift)
 
 ## Installation
 
