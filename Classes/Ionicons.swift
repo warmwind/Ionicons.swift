@@ -797,6 +797,6 @@ public enum Ionicon: String {
 
 public extension String {
     public static func ioniconWithName(name: Ionicon) -> String {
-        return name.rawValue.substringToIndex(advance(name.rawValue.startIndex, 1))
+        return name.rawValue.substringToIndex(name.rawValue.startIndex.advancedBy(1))
     }
 }
