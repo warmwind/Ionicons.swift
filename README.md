@@ -15,6 +15,12 @@ label.text = String.ioniconWithName(Ionicons.SocialGithub)
 let attributes = [NSFontAttributeName: UIFont.ioniconOfSize(20)] as Dictionary!
 ```
 
+### Ionicons icon in label from css class name
+```swift
+label.font = UIFont.ioniconOfSize(200)
+label.text = String.ioniconWithCode("ion-alert")
+```
+
 ### Ionicons icon in button
 ```swift
 button.titleLabel?.font = UIFont.ioniconOfSize(30)
